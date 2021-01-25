@@ -19,8 +19,7 @@ I was able to load the top headlines on the home page using a free News Api prov
 
 
 ### Sign Up Page
-<!-- ![](assets/img/1.jpg) -->
-<img src="assets/img/1.jpg" width=200>
+![](assets/img/1.jpg)
 ![](assets/img/2.jpg)
 ![](assets/img/3.jpg)
 

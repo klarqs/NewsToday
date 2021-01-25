@@ -91,15 +91,6 @@ class _HomeState extends State<Home> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Container(
-                    //   margin: EdgeInsets.only(bottom: 10),
-                    //   height: 60,
-                    //   width: 60,
-                    //   decoration: BoxDecoration(
-                    //     color: Colors.black26,
-                    //     shape: BoxShape.circle,
-                    //   ),
-                    // ),
                     SizedBox(height: 25),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -144,26 +135,6 @@ class _HomeState extends State<Home> {
                   color: Colors.grey[200],
                 ),
               ),
-              // ListTile(
-              //   leading: Icon(Icons.star),
-              //   title: Align(
-              //     child: Text(
-              //       'Saved Blogs',
-              //       // textAlign: TextAlign.center,
-              //       style: TextStyle(
-              //         fontWeight: FontWeight.w600,
-              //         color: Colors.grey[700],
-              //         letterSpacing: .3,
-              //         fontSize: 15,
-              //       ),
-              //     ),
-              //     alignment: Alignment(-1.2, 0),
-              //   ),
-              //   onTap: () {
-              //     // Update the state of the app.
-              //     // ...
-              //   },
-              // ),
               ListTile(
                 leading: Icon(
                   Icons.person,
@@ -237,39 +208,6 @@ class _HomeState extends State<Home> {
                   padding: EdgeInsets.symmetric(horizontal: 12),
                   child: Column(
                     children: [
-                      /// Categories
-                      // Container(
-                      //   padding: EdgeInsets.only(
-                      //     left: 5,
-                      //     right: 5,
-                      //   ),
-                      //   height: 50,
-                      //   child: ListView.builder(
-                      //     itemCount: categories.length,
-                      //     shrinkWrap: true,
-                      //     scrollDirection: Axis.horizontal,
-                      //     itemBuilder: (context, index) {
-                      //       return CategoryTile(
-                      //         categoryName: categories[index].categoryName,
-                      //         imageUrl: categories[index].imageUrl,
-                      //         onTap: () {
-                      //           Navigator.push(
-                      //             context,
-                      //             MaterialPageRoute(
-                      //               builder: (context) => CategoryNews(
-                      //                 category: categories[index]
-                      //                     .categoryName
-                      //                     .toString()
-                      //                     .toLowerCase(),
-                      //               ),
-                      //             ),
-                      //           );
-                      //         },
-                      //       );
-                      //     },
-                      //   ),
-                      // ),
-
                       /// Blog
                       Container(
                         padding: EdgeInsets.only(
